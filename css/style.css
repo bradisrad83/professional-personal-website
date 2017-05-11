@@ -120,7 +120,8 @@ p {
 
 .header {
   text-align: center;
-  background: url(../img/main.png) left top repeat;
+  background: url(../img/main1.png) no-repeat;
+  background-size: 100%;
   padding: 280px 0;
 }
 
@@ -172,7 +173,7 @@ p {
 
 .link {
   padding: 15px 35px;
-  background: #7cc576;
+  background: royalblue;
   color: #fff !important;
   font-size: 16px;
   font-weight: 400;
@@ -189,7 +190,7 @@ p {
 
 .link:hover {
   text-decoration: none;
-  color: #7cc576 !important;
+  color: royalblue !important;
   background: #fff;
 }
 
@@ -278,11 +279,13 @@ p {
 }
 
 .main-section {
-  background-color: black;
+  background: url(../img/main1.png) no-repeat;
+  background-size: 100%;
 }
 
 .main-section.alabaster {
-  background: #fafafa;
+  background: url(../img/main1.png) no-repeat;
+  background-size: 100%;
 }
 
 
@@ -473,8 +476,8 @@ img {
 ---------------------------------*/
 
 .client-part {
-  background: url(../img/section-bg1.jpg) center center no-repeat;
-  background-size: cover;
+  background: url(../img/main1.png) no-repeat;
+  background-size: 100%;
   padding: 55px 0;
   text-align: center;
 }
@@ -701,8 +704,8 @@ img {
 ---------------------------------*/
 
 .business-talking {
-  background: url(../img/section-bg2.jpg) top center no-repeat;
-  background-size: cover;
+  background: url(../img/main1.png) no-repeat;
+  background-size: 100%;
   padding: 60px 0 10px;
   text-align: center;
 }
@@ -722,12 +725,14 @@ img {
 ---------------------------------*/
 
 .main-section.contact {
-  padding: 90px 0 100px;
+  background: url(../img/main1.png) no-repeat;
+  background-size: 100%;
+}
+#contact{
+  background: url(../img/main1.png) no-repeat;
+  background-size: 100%;
 }
 
-.main-section.contact {
-  background: url(../img/bg-map.png) left 190px no-repeat;
-}
 
 .contact-info-box {
   font-size: 15px;
@@ -901,7 +906,8 @@ img {
 ---------------------------------*/
 
 .footer {
-  background: url(../img/pw_maze_black_2X.png) left top repeat;
+  background: url(../img/main1.png) no-repeat;
+  background-size: 100%;
   padding: 35px 0 35px;
 }
 
