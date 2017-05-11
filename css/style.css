@@ -92,8 +92,8 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #222222;
-  font-size: 16px;
+  color: white;
+  font-size: 20px;
   margin: 0 0 5px 0;
   text-transform: uppercase;
   font-weight: 400;
@@ -190,7 +190,7 @@ p {
 
 .link:hover {
   text-decoration: none;
-  color: royalblue !important;
+  color: royal !important;
   background: #fff;
 }
 
@@ -328,7 +328,7 @@ p {
   line-height: 38px;
   font-family: 'FontAwesome';
   font-size: 38px;
-  color: #777777;
+  color: #fff;
   font-style: normal;
 }
 
@@ -517,7 +517,7 @@ img {
 }
 
 .client li a h3 {
-  color: #ffffff;
+  color: black;
 }
 
 .client li a span {
