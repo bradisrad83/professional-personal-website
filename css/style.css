@@ -284,12 +284,9 @@ p {
   background: url(../img/main.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
 }
 
-.main-section.alabaster {
-
-}
+.main-section.alabaster {}
 
 
 /* Featured Work
@@ -479,7 +476,6 @@ img {
 ---------------------------------*/
 
 .client-part {
-
   background-size: 100%;
   padding: 55px 0;
   text-align: center;
@@ -728,10 +724,7 @@ img {
 
 .main-section.contact {
   align-content: center;
-
 }
-
-
 
 .contact-info-box {
   font-size: 15px;
@@ -764,16 +757,14 @@ img {
 }
 
 .social-link {
-  padding: 35px 0;
-  margin: 0 0 0 68px;
-  display: block;
+  margin: 0 0 0 0px;
   overflow: hidden;
   list-style: none;
 }
 
 .social-link li {
   float: left;
-  margin-right: 8px;
+  margin-right: 40px;
 }
 
 .social-link li a {
@@ -793,19 +784,23 @@ img {
   text-decoration: none;
 }
 
-.linkedin a:hover {
+.fa-linkedin:hover {
   background: green;
 }
 
-.facebook a:hover {
+.fa-stackoverflow:hover {
   background: green;
 }
 
-.github a:hover {
+.fa-facebook:hover {
   background: green;
 }
 
-.gplus a:hover {
+.fa-github:hover {
+  background: green;
+}
+
+.fa-stack-overflow:hover {
   background: green;
 }
 
@@ -904,34 +899,9 @@ img {
 /* Footer
 ---------------------------------*/
 
-.footer {
-  background-size: 100%;
-  padding: 35px 0 35px;
-}
-
-.footer-logo {
-  margin: 15px auto 35px;
-  width: 76px;
-}
-
-.copyright, .credits {
-  color: #cccccc;
-  font-size: 14px;
-  display: block;
-  text-align: center;
-}
-
-.copyright a, .credits a {
-  color: #7cc576;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-}
-
-.copyright a:hover, .credits a:hover {
+.name {
   color: #fff;
+  font-size: 20px;
 }
 
 .res-nav_click {
@@ -1011,14 +981,89 @@ img {
   animation-delay: 1.2s;
   -webkit-animation-delay: 1.2s;
 }
-#logo{
+
+#logo {
   max-height: 50px;
 }
-.gitlinks{
+
+.gitlinks {
   color: white;
 }
+
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#contact-form {
+  max-width: 500px;
+  margin: 0 auto
+}
+
+#contact-form input, #contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 10px;
+  background: #fff;
+  color: green;
+  transition: .5s ease all
+}
+
+#contact-form input::-webkit-input-placeholder, #contact-form textarea::-webkit-input-placeholder {
+  color: green;
+}
+
+#contact-form input:-moz-placeholder, #contact-form textarea:-moz-placeholder {
+  color: green;
+  opacity: 1
+}
+
+#contact-form input::-moz-placeholder, #contact-form textarea::-moz-placeholder {
+  color: #fff;
+  opacity: 1
+}
+
+#contact-form input:-ms-input-placeholder, #contact-form textarea:-ms-input-placeholder {
+  color: #fff
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+  outline: none;
+  background: #fff;
+}
+
+#contact-form textarea {
+  height: 150px;
+  resize: none
+}
+
+#contact-form button {
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: none;
+  color: green;
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: .5s ease all
+}
+
+#contact-form button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)
+}
+
+.footer a{
+   line-height: 70px;
+   font-size: 25px;
+   padding: 20px;
+   color: #fff;
+}
+.footer li a:hover, .footer li a:focus {
+  text-decoration: none;
 }
