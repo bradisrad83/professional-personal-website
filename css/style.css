@@ -189,7 +189,7 @@ p {
   -webkit-transition: all 0.3s ease-in-out;
 }
 
-.link:hover {
+.social-link a:hover {
   text-decoration: none;
   color: green !important;
   background: #fff;
@@ -361,6 +361,16 @@ p {
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   display: none;
+}
+
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.text-center {
+  text-align: center
 }
 
 .Learn-More i {
@@ -757,14 +767,16 @@ img {
 }
 
 .social-link {
-  margin: 0 0 0 0px;
+  padding: 35px 0;
+  margin: 0 auto;
+  display: inline-block;
   overflow: hidden;
   list-style: none;
 }
 
 .social-link li {
   float: left;
-  margin-right: 40px;
+  margin-right: 8px;
 }
 
 .social-link li a {
@@ -784,23 +796,23 @@ img {
   text-decoration: none;
 }
 
-.fa-linkedin:hover {
+.fa-linkedin a:hover {
   background: green;
 }
 
-.fa-stackoverflow:hover {
+.fa-stackoverflow a:hover {
   background: green;
 }
 
-.fa-facebook:hover {
+.fa-facebook a:hover {
   background: green;
 }
 
-.fa-github:hover {
+.fa-github a:hover {
   background: green;
 }
 
-.fa-stack-overflow:hover {
+.fa-stack-overflow a:hover {
   background: green;
 }
 
@@ -898,6 +910,15 @@ img {
 
 /* Footer
 ---------------------------------*/
+.navbar {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar {
+  text-align: center;
+}
 
 .name {
   color: #fff;
@@ -990,6 +1011,10 @@ img {
   color: white;
 }
 
+.namebottom {
+  color: #fff;
+}
+
 .center-block {
   display: block;
   margin-left: auto;
@@ -1058,12 +1083,6 @@ img {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)
 }
 
-.footer a{
-   line-height: 70px;
-   font-size: 25px;
-   padding: 20px;
-   color: #fff;
-}
 .footer li a:hover, .footer li a:focus {
   text-decoration: none;
 }
