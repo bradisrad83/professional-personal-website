@@ -54,10 +54,9 @@
 	.header{ padding:60px 0;}
 	.main-section{ padding:60px 0 70px;}
 	.main-nav{ display:block; position:absolute; left:0; width:100%; top:0px; margin:0 auto; flote : none; background:#fff;}
-	.main-nav li{ display:block;}
+	.main-nav li{ display:none;}
 	.main-nav li.small-logo{ display:none;}
 	.main-nav li a:hover{color:#7cc576}
-	.main-nav{opacity: 0.35}
 	.team-leader-box{ max-width:307px; width:auto; float:none; margin:0 auto;	}
 	.team-leader-box:nth-of-type(3n){ margin:0 auto}
 	.featured-work{ font-size:12px; margin-top:30px;}
@@ -89,7 +88,7 @@
 	/****Mobile Portrait 320 ****/
 	.header{ padding:40px;}
 	.social-link{ margin-left:0px;}
-	.main-nav{ display:block !important; }
+	.main-nav{ display:none;}
 	.form{ margin:0}
 	.c-logo-part ul li{ display:block;}
 	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
